@@ -5,9 +5,11 @@
 
 # Cách sử dụng
 - Yêu cầu: **Python3**
-- File user.txt: username dòng 1, password dòng 2
-- File mamon.txt: Mỗi môn 1 dòng
+- File hp_taikhoan.txt: username dòng 1, password dòng 2
+- File hp_mamon.txt: Mỗi môn 1 dòng
 - Lệnh:
     - `python -m pip install --upgrade pip`
     - `pip install requirements.txt`
-    - `python dkhp.py user.txt mamon.txt`
+    - `python dkhp.py`
+- Build Exe:
+	- `python setup.py build`
